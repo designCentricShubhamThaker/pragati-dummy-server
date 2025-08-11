@@ -1,0 +1,159 @@
+{
+  "orders": [
+    {
+      "order_number": "ORD-001",
+      "manager_name": "anaya",
+      "order_status": "Pending",
+      "customer_name": "ABC Cosmetics Pvt Ltd",
+      "items": [
+        {
+          "item_name": "Item 1",
+          "bottle": [
+            {
+              "bottle_name": "100 ML ELITES 175 (GM) 20 MM AN",
+              "neck_size": 20,
+              "capacity": "100ml",
+              "quantity": 2000,
+              "status": "Pending",
+              "rate": 20,
+              "available_stock": 2000,
+              "inventory_used": 0,
+              "deco_no": 17292,
+              "is_deco_no_approved": false
+            }
+          ],
+          "caps": [
+            {
+              "cap_name": "Standard Flip Cap",
+              "cap_type": "Flip Top",
+              "qty": 2000,
+              "panton_no": "PMS 123 C",
+              "finish": "Glossy"
+            }
+          ]
+        },
+        {
+          "item_name": "Item 2",
+          "bottle": [
+            {
+              "bottle_name": "100 ML LOMANI 165 (GM) 20 MM AN",
+              "neck_size": 22,
+              "capacity": "150ml",
+              "quantity": 1000,
+              "status": "Pending",
+              "rate": 25,
+              "available_stock": 1500,
+              "inventory_used": 0,
+              "deco_no": 17310,
+              "is_deco_no_approved": true
+            },
+            {
+              "bottle_name": "100 ML ELITES 175 (GM) 20 MM AN",
+              "neck_size": 24,
+              "capacity": "120ml",
+              "quantity": 500,
+              "status": "Pending",
+              "rate": 22,
+              "available_stock": 2000,
+              "inventory_used": 0,
+              "deco_no": 17311,
+              "is_deco_no_approved": false
+            }
+          ],
+          "caps": [
+            {
+              "cap_name": "Matte Screw Cap",
+              "cap_type": "Screw",
+              "qty": 1500,
+              "panton_no": "PMS 456 C",
+              "finish": "Matte"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order_number": "ORD-002",
+      "manager_name": "ravi",
+      "order_status": "Pending",
+      "customer_name": "Glow & Shine Pvt Ltd",
+      "items": [
+        {
+          "item_name": "Item A",
+          "bottle": [
+            {
+              "bottle_name": "50 ML SQUARE GLASS 18 MM",
+              "neck_size": 18,
+              "capacity": "50ml",
+              "quantity": 3000,
+              "status": "Pending",
+              "rate": 18,
+              "available_stock": 3200,
+              "inventory_used": 0,
+              "deco_no": 17320,
+              "is_deco_no_approved": false
+            },
+            {
+              "bottle_name": "60 ML ROUND CLEAR 20 MM",
+              "neck_size": 20,
+              "capacity": "60ml",
+              "quantity": 1500,
+              "status": "Pending",
+              "rate": 19,
+              "available_stock": 1600,
+              "inventory_used": 0,
+              "deco_no": 17321,
+              "is_deco_no_approved": true
+            }
+          ]
+        },
+        {
+          "item_name": "Item B",
+          "bottle": [
+            {
+              "bottle_name": "100 ML ELITES 175 (GM) 20 MM AN",
+              "neck_size": 22,
+              "capacity": "80ml",
+              "quantity": 1000,
+              "status": "Pending",
+              "rate": 21,
+              "available_stock": 2000,
+              "inventory_used": 0,
+              "deco_no": 17322,
+              "is_deco_no_approved": false
+            }
+          ]
+        },
+        {
+          "item_name": "Item C",
+          "bottle": [
+            {
+              "bottle_name": "100 ML LOMANI 165 (GM) 20 MM AN",
+              "neck_size": 15,
+              "capacity": "30ml",
+              "quantity": 2000,
+              "status": "Pending",
+              "rate": 16,
+              "available_stock": 1500,
+              "inventory_used": 0,
+              "deco_no": 17323,
+              "is_deco_no_approved": true
+            },
+            {
+              "bottle_name": "40 ML DIAMOND 18 MM",
+              "neck_size": 18,
+              "capacity": "40ml",
+              "quantity": 800,
+              "status": "Pending",
+              "rate": 17,
+              "available_stock": 850,
+              "inventory_used": 0,
+              "deco_no": 17324,
+              "is_deco_no_approved": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

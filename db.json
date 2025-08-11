@@ -1,0 +1,142 @@
+{
+  "orders": [
+    {
+      "order_number": "ORD-001",
+      "manager_name": "anaya",
+      "order_status": "Pending",
+      "customer_name": "ABC Cosmetics Pvt Ltd",
+      "items": [
+        {
+          "_id": "item_001_1",
+          "item_name": "Item 1",
+          "bottle": [
+            {
+              "bottle_name": "100 ML ELITES 175 (GM) 20 MM AN",
+              "neck_size": 20,
+              "capacity": "100ml",
+              "quantity": 2500,
+              "completed_qty": 0,
+              "status": "Pending",
+              "rate": 20,
+              "available_stock": 3000,
+              "inventory_used": 0,
+              "deco_no": 17292,
+              "deco_sequence": "printing_coating",
+              "tracking_status": []
+            }
+          ],
+          "printing": [
+            {
+              "printing_id": "printing_001_1",
+              "bottle_name": "100 ML ELITES 175 (GM) 20 MM AN",
+              "quantity": 2500,
+              "is_completely_received": true,
+              "is_partially_received": true,
+              "is_deco_no_approved": true,
+              "completed_qty": 0,
+              "status": "Pending",
+              "deco_no": 17292,
+              "inventory_used": 0,
+              "available_stock": 3000,
+              "tracking_status": []
+            }
+          ],
+          "coating": [
+            {
+              "coating_id": "coating_id_001_1",
+              "bottle_name": "100 ML ELITES 175 (GM) 20 MM AN",
+              "quantity": 2500,
+              "is_completely_received": true,
+              "is_partially_received": true,
+              "is_deco_no_approved": true,
+              "completed_qty": 0,
+              "status": "Pending",
+              "deco_no": 17292,
+              "inventory_used": 0,
+              "available_stock": 7000,
+              "tracking_status": []
+            }
+          ]
+        },
+        {
+          "_id": "item_001_2",
+          "item_name": "Item 2",
+          "bottle": [
+            {
+              "bottle_name": "100 ML LOMANI 165 (GM) 20 MM AN",
+              "neck_size": 22,
+              "capacity": "150ml",
+              "quantity": 1000,
+              "completed_qty": 0,
+              "status": "Pending",
+              "rate": 25,
+              "available_stock": 2500,
+              "inventory_used": "0",
+              "deco_no": 17310,
+              "deocration_sequence": "printing",
+              "is_deco_no_approved": true,
+              "tracking_status": [
+                {
+                  "date": "2025-08-06T06:02:20.456Z",
+                  "quantity_produced": 0,
+                  "stock_used": "1000",
+                  "total_completed": 1000,
+                  "notes": "Used from existing stock",
+                  "updated_by": "bottle_team",
+                  "previous_completed": 0
+                }
+              ]
+            },
+            {
+              "bottle_name": "100 ML ELITES 175 (GM) 20 MM AN",
+              "neck_size": 24,
+              "capacity": "120ml",
+              "quantity": 500,
+              "completed_qty": 0,
+              "status": "Pending",
+              "rate": 22,
+              "available_stock": 3000,
+              "inventory_used": 0,
+              "deco_no": 17311,
+              "deocration_sequence": "foiling",
+              "is_deco_no_approved": false,
+              "tracking_status": []
+            }
+          ],
+          "printing": [
+            {
+              "printing_id": "printing_001_2",
+              "bottle_name": "100 ML LOMANI 165 (GM) 20 MM AN",
+              "quantity": 1000,
+              "completed_qty": 0,
+              "deco_no": 17310,
+              "status": "Pending",
+              "is_completely_received": false,
+              "is_partially_received": false,
+              "is_deco_no_approved": false,
+              "inventory_used": 0,
+              "available_stock": 2000,
+              "tracking_status": []
+            }
+          ],
+          "foiling": [
+            {
+              "printing_id": "foiling_001_2",
+              "bottle_name": "100 ML LOMANI 165 (GM) 20 MM AN",
+              "quantity": 1000,
+              "completed_qty": 0,
+              "deco_no": 17310,
+              "status": "Pending",
+              "is_completely_received": false,
+              "is_partially_received": false,
+              "is_deco_no_approved": false,
+              "inventory_used": 0,
+              "available_stock": 2000,
+              "tracking_status": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -25,6 +25,18 @@
               "tracking_status": []
             }
           ],
+          "pumps": [
+            {
+              "quantity": 5000,
+              "pump_name": "SP0010 - SPRAY PUMP 15 MM G/IVORY",
+              "completed_qty": 0,
+              "inventory_used": 0,
+              "available_stock": 2000,
+              "tracking_status": [],
+              "rate": 20,
+              "status": "Pending"
+            }
+          ],
           "printing": [
             {
               "printing_id": "printing_001_1",
@@ -133,6 +145,28 @@
               "inventory_used": 0,
               "available_stock": 2000,
               "tracking_status": []
+            }
+          ],
+          "pumps": [
+            {
+              "quantity": 2000,
+              "pump_name": "SP0010 - SPRAY PUMP 15 MM G/IVORY",
+              "completed_qty": 0,
+              "inventory_used": 0,
+              "available_stock": 2000,
+              "tracking_status": [],
+              "rate": 20,
+              "status": "Pending"
+            },
+            {
+              "quantity": 2000,
+              "pump_name": "SP0018 - SPRAY PUMP 15 MM B/B",
+              "completed_qty": 0,
+              "inventory_used": 0,
+              "available_stock": 2000,
+              "tracking_status": [],
+              "rate": 20,
+              "status": "Pending"
             }
           ]
         }
